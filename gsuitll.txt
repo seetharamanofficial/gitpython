@@ -1,0 +1,12 @@
+1, Create  bucket a  google cli mode 
+    Create bucket
+     gsutil mb gs://your-bucket-name
+
+2, Set location
+   gsutil mb -l us-central1 gs://your-bucket-name
+
+3, Set Classes
+     gsutil mb -c COLDLINE gs://your-bucket-name
+
+4, bqload : bq load \—source_formate =csv \ my_dataset.mytable \my_dataset.my_table \gs://mybucket\mydata.csv.
+ 
